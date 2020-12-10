@@ -1,0 +1,121 @@
+	/*-- Header CSS --*/
+    header {
+        background-color: #fff;
+        box-shadow: 0px 0px 10px -3px #b3b3b3;
+        padding: 10px 0px;
+    }
+    header .navbar-brand {
+        max-width: 250px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 17px;
+        color: #2f4f4f;
+        font-weight: 500;
+    }
+    header .navbar-light .navbar-nav .active > .nav-link,
+    header .navbar-light .navbar-nav .nav-link.active,
+    header .navbar-light .navbar-nav .nav-link.show,
+    header .navbar-light .navbar-nav .show > .nav-link,
+    header .navbar-light .navbar-nav .nav-link:focus,
+    header .navbar-light .navbar-nav .nav-link:hover {
+        color: #d93025;
+    }
+    
+    header span.dropdown-toggle {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-size: 18px;
+    }
+    header .dropdown:hover span.dropdown-toggle {
+        color: #d09c00;
+    }
+    
+    @media (max-width: 576px) {
+        header .navbar-brand {
+            width: 160px;
+        }
+    }
+    /*-- End Header CSS --*/
+    
+    
+    /*---header stripe css ---*/
+    body{
+      background-color: #f1f1f1;
+    }
+    #header .navbar-light .navbar-nav .nav-link:focus,
+    #header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ef4211;
+    }
+    #header nav{
+      padding: 15px 0px;
+    }
+    #header .navbar-light .navbar-nav .nav-link {
+      color: #5a5a5a;
+      font-size: 20px;
+    }
+    #header {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff;
+        float: left;
+        width: 100%;
+    }
+    #header ul.navbar-nav {
+        position: absolute;
+        right: 0;
+    }
+    #header li.nav-item {
+        margin: 0px 10px;
+    }
+    #header .navbar-light .navbar-nav .active>.nav-link, #header .navbar-light .navbar-nav .nav-link.active, #header .navbar-light .navbar-nav .nav-link.show, #header .navbar-light .navbar-nav .show>.nav-link {
+        color: #ef4211;
+    }
+    #header .dropdown-menu.show {
+        border: none;
+    }
+    .topbar {
+        background-color: #3498db;
+        color: #fff;
+        padding: 4px 0px;
+    }
+    .topbar ul{
+      margin: 0px;
+      padding: 0px;
+    }
+    .topbar ul li {
+        float: left;
+        list-style: none;
+        margin: 3px 7px;
+        font-size: 15px;
+    }
+    .topbar ul li a{
+      color: #fff;
+    }
+    .topbar ul li i {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    .topbar ul li.followus-label {
+        font-weight: bold;
+    }
+    #header .social-icon {
+        float: right;
+    }
+    /*=============Responsive css==================*/
+    @media (max-width: 991px){
+    .topbar ul li {
+        margin: 3px 3px;
+        font-size: 12px;
+    }
+    #header ul.navbar-nav {
+        position: static;
+        width: 100%;
+        border-top: 1px solid #ddd;
+        margin: 15px 0px 0px;
+    }
+}
+    
+   
+          /*---header stripe css ---*/
